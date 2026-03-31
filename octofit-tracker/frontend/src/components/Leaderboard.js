@@ -7,14 +7,14 @@ const API_BASE_URL = (() => {
     console.warn('REACT_APP_CODESPACE_NAME is not set. Using localhost:8000 fallback.');
     return 'http://localhost:8000/api';
   }
-  return `https://${name}-8000.app.github.dev/api`;
+  return `https://${name}-8000.app.github.dev/api/leaderboard/`;
 })();
 
 function Leaderboard() {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const url = `${API_BASE_URL}/${endpointName}/`;
+  const url = `${API_BASE_URL}`;
 
   useEffect(() => {
     console.log(`[Leaderboard] Fetching from endpoint: ${url}`);
