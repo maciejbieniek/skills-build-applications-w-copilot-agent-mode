@@ -1,0 +1,182 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Custom styles for OctoFit Tracker */
+.navbar-brand {
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.table-responsive {
+  margin-top: 1rem;
+}
+
+.display-4 {
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  margin-bottom: 1rem;
+}
+
+.alert {
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.spinner-border {
+  margin: 2rem auto;
+  color: #667eea !important;
+}
+
+/* Table Styling */
+.table {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.table thead th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.table tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(102, 126, 234, 0.1);
+}
+
+.table tbody td {
+  border-color: rgba(102, 126, 234, 0.2);
+  color: #333;
+}
+
+/* Button Styling */
+.btn {
+  border-radius: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+}
+
+/* Heading Styling */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Link Styling */
+a {
+  color: #ffd700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Navigation Menu Styling */
+.navbar {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border-bottom: 3px solid #ffd700;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Alert Styling */
+.alert-danger {
+  background: linear-gradient(135deg, #fed7d7 0%, #feb2b2 100%);
+  border-color: #e53e3e;
+  color: #742a2a;
+}
+
+.alert-info {
+  background: linear-gradient(135deg, #bee3f8 0%, #90cdf4 100%);
+  border-color: #3182ce;
+  color: #2a4365;
+}
+
+/* Code Styling */
+code {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffd700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}
+
+/* Text Styling */
+.text-muted {
+  color: #e2e8f0 !important;
+}
+
+.text-primary {
+  color: #ffd700 !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .navbar-brand img {
+    height: 30px;
+  }
+}
